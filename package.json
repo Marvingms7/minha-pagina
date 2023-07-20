@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "apollo-client": "^2.6.10",
+    "bootstrap-icons": "^1.10.5",
+    "boxicons": "^2.1.4",
     "swiper": "^10.0.4"
   }
 }
