@@ -240,6 +240,7 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
+    max-width: 100%;
     background: url("../img/marcus.jpg") top center;
     background-size: cover;
   }
@@ -247,7 +248,7 @@ body {
   #hero:before {
     content: "";
     background: rgba(5, 13, 24, 0.3);
-    position: fixed;
+    position: absolute;
     bottom: 0;
     top: 0;
     height: 100%;
