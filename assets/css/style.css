@@ -243,17 +243,18 @@ body {
     max-width: 100%;
     background: url("../img/marcus.jpg") top center;
     background-size: cover;
+    position: relative;
   }
   
   #hero:before {
     content: "";
-    background: rgba(5, 13, 24, 0.3);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 99;
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
   }
   
   #hero .hero-container {
