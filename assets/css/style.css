@@ -256,7 +256,7 @@ body {
   }
   
   #hero .hero-container {
-    position: relative;
+    position: absolute;
     z-index: 2;
     min-width: 300px;
   }
